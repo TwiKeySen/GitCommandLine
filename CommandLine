@@ -1,0 +1,42 @@
+============ COMMANDE CONSOLE ==========
+pwd 	=> Permet de connaitre le répertoire courant
+ls  	=> Permet de voir la liste des fichiers et répertoires 
+       	   dans le dossier courant
+ls -l 	=> Permet de voir plus d'informations sous forme de liste
+cd  	=> Permet de se placer dans un répertoire
+cd .. 	=> Permet de revenir au répertoire parent
+touch 	=> Permet de créer un fichier
+mkdir 	=> Permet de créer un dossier
+cat	=> Permet d'afficher le contenu d'un fichier
+
+
+============ INSTALLATION DE GIT =============
+1. Télécharger git : https://git-for-windows.github.io
+2. Entrer les lignes de commandes dans GitBash :
+	git config --global user.name "Mon nom"
+	git config --global user.email "Mon email"
+
+
+============ UTILISATION DE VIM ==============
+Vim est un éditeur de text
+(Pour utiliser SublimeText par défault depuis gitBash :
+	git config --global core.editor "C:/Programmes/Sublime Text 3/
+					sublime_text.exe -w -n")
+:w 	=> Permet de sauvegarder
+:q	=> Permet de quitter
+:x	=> Permet de sauvegarder et quitter
+
+============ CREER UN NOUVEAU REPOSITORY ============
+1. Se placer dans le dossier 
+2. Utiliser la commande "git init" dans ce dossier
+
+Lorsque l'on créer un fichier dans un repository, 
+on doit l'ajouter à l'index de GIT :
+	"git add nomdufichier"
+(pour ajouter tous les fichiers) : 
+	"git add . "
+
+COMMIT 			:  "git commit" 
+COMMIT AVEC COMMENTAIRE :  "git commit -m "message""
+HISTORIQUE DES COMMITS  :  "git log"
+
