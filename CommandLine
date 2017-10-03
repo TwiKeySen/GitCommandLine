@@ -64,6 +64,12 @@ _____BRANCHES :
 VOIR LES BRANCHES 	:  "git branch"
 CREER UNE NOUVELLE 
 BRANCHE			:  "git branch nomDeLaNvlleBranche"
+SE PLACER DANS UNE
+BRANCHE 		:  "git checkout nomDeLaBranche"
 
+*ASTUCE*
+CREER UNE BRANCHE
+ET S'Y POSITIONNER 	:  "git checkout -b nomDeLaBranche"
+********
 
-
+FUSIONNER LES BRANCHES  :  "git merge brancheB"
