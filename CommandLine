@@ -36,7 +36,34 @@ on doit l'ajouter à l'index de GIT :
 (pour ajouter tous les fichiers) : 
 	"git add . "
 
+
+============ QUELQUES COMMANDES GITS =============
+_____GLOBAL : 
+
 COMMIT 			:  "git commit" 
 COMMIT AVEC COMMENTAIRE :  "git commit -m "message""
 HISTORIQUE DES COMMITS  :  "git log"
+METTRE A JOUR UN
+FICHIER DEJA AJOUTE
+DANS L'INDEX 		:  "git commit -am "message""
+SE POSITIONNER SUR UN 
+COMMIT 			:  "git checkout SHAduCommit"
+REVENIR A LA BRANCHE
+PRINCIPALE		:  "git checkout master"
+NOUVEAU COMMIT QUI FAIT
+L'INVERSE DU PRECEDENT 	:  "git revert SHAduCommit"
+MODIFIER LE COMMENTAIRE :  "git commit --amend -m "nouveau message""
+PAS ENCORE DE COMMIT
+TOUT ANNULER 		:  "git reset --hard"
+COPIER UN REPO SUR
+SA MACHINE 		:  "git clone lienDuRepoACopier"
+ENVOYER SON REPO	:  "git push origin master"
+RECUPERER UN REPO 	:  "git pull origin master"
+
+_____BRANCHES : 
+VOIR LES BRANCHES 	:  "git branch"
+CREER UNE NOUVELLE 
+BRANCHE			:  "git branch nomDeLaNvlleBranche"
+
+
 
